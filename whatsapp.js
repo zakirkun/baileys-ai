@@ -18,7 +18,7 @@ const startSocks = async(id) => {
 
     setInterval(() => {
         store?.writeToFile(file_store)
-    }, 10_000)
+    }, 1_000)
 
     const { state, saveCreds } = await useMultiFileAuthState(path)
     const { version, isLatest } = await fetchLatestBaileysVersion()
@@ -90,5 +90,6 @@ const startSocks = async(id) => {
 }
 
 export {
-    startSocks
+    startSocks,
+    sessions
 }
