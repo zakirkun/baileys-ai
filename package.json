@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "@adiwajshing/baileys": "github:adiwajshing/baileys",
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "@hapi/boom": "^10.0.0",
+    "nodemon": "^2.0.16",
+    "pino": "^7.11.0",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "name": "wa-socket-baileys",
+  "version": "1.0.0",
+  "main": "whatsapp.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
